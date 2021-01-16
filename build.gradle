@@ -1,6 +1,10 @@
 buildscript {
     repositories {
         mavenCentral()
+		maven {
+            name = "longan-mirror"
+            url = "https://longan.beanflame.cn/maven"
+        }
         maven {
             name = "forge"
             url = "http://files.minecraftforge.net/maven"
@@ -12,6 +16,7 @@ buildscript {
     }
     dependencies {
         classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT'
+		//classpath 'cn.beanflame.forgelongangradle:ForgeGradle:1.2-0.1.0-longan-rev'
     }
 }
 

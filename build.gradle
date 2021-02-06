@@ -15,8 +15,8 @@ buildscript {
         }
     }
     dependencies {
-        classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT'
-		//classpath 'cn.beanflame.forgelongangradle:ForgeGradle:1.2-0.1.0-longan-rev'
+        classpath 'cn.beanflame.longangradle:ForgeLonganGradle:1.2-0.1.2-Longan'
+		//classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT'
     }
 }
 
